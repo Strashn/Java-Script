@@ -1,8 +1,8 @@
 // Введення даних
 
-let a = parseInt(prompt('Введіть а', '2'))
-let b = parseInt(prompt('Введіть b', '2'))
-let c = parseInt(prompt('Введіть c', '2'))
+let a = parseFloat(prompt('Введіть а', '2'))
+let b = parseFloat(prompt('Введіть b', '2'))
+let c = parseFloat(prompt('Введіть c', '2'))
 
 // Обчислення
 
