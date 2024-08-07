@@ -1,0 +1,56 @@
+@import "_reset.scss";
+
+body {
+    font-family: Arial, san-serif;
+    color: #07073e;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+
+    &>main {
+        flex-grow: 1;
+    }
+}
+
+.page {
+    &__container {
+        max-width: 1400px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+
+    &__tasks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 80px;
+        align-items: center;
+    }
+
+    &__task {
+        max-width: 220px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px 40px;
+        border: 2px solid #07073e;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+}

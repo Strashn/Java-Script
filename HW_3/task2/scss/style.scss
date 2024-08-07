@@ -1,0 +1,52 @@
+@import "_reset.scss";
+
+body {
+    font-family: Arial, san-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    color: #07073e;
+
+
+    &>main {
+        flex-grow: 1;
+    }
+}
+
+.page {
+    &__container {
+        max-width: 1400px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__task {
+        order: 1;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+
+    &__text {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px;
+        border: 2px solid #07073e;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+
+}
