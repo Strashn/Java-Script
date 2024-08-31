@@ -1,0 +1,71 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, san-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    color: #07073e;
+}
+
+.wrapper>main {
+    flex-grow: 1;
+}
+
+.page__container {
+    max-width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.page__subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.page__text {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.page__link {
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 500px;
+    left: 14px;
+    padding: 20px;
+    border: 1px solid #07073e;
+    border-radius: 20px;
+}
+
+.page__link:hover {
+    padding: 20px;
+    border: 2px solid #07073e;
+    border-radius: 20px;
+}
+
+.page__answer {
+    font-size: 24px;
+    color: #07073e;
+    position: absolute;
+    top: 335px;
+    left: 14px;
+
+}
